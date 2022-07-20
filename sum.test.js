@@ -12,6 +12,9 @@ test('remove 10 - 5 to equal 5', () => {
     expect(sums.difference(10, 5)).toBe(5)
 });
 
+test('remove 7 - 4 to equal 3', () => {
+    expect(sums.difference(7, 4)).toBe(3)
+});
 
 
 
